@@ -31,7 +31,7 @@ func Example2() {
 			card.FieldMarkdown("**📌 活动地点：**\n4F 餐厅"),
 		),
 		card.Action(
-			card.LinkButton("查看活动规则", "https://open.feishu.cn/").SetPrimary(),
+			card.LinkButton("查看活动规则", "https://open.larksuite.com/").SetPrimary(),
 		),
 	).
 		SetHeader(card.Header("🎑 趣味中秋，活动预告🎉").SetYellow())
