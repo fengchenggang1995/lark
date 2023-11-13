@@ -181,8 +181,8 @@ func newClient(tenantKey string, options []ClientOptionFunc) *Lark {
 		store:        NewStoreMemory(),
 		mock:         new(Mock),
 		eventHandler: new(eventHandler),
-		openBaseURL:  "https://open.feishu.cn",
-		wwwBaseURL:   "https://www.feishu.cn",
+		openBaseURL:  "https://open.larksuite.com",
+		wwwBaseURL:   "https://www.larksuite.com",
 	}
 	for _, v := range options {
 		if v != nil {
