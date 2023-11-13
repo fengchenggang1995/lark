@@ -32,7 +32,7 @@ func Example7() {
 		card.HR(),
 
 		card.Div().
-			SetText(card.MarkdownText("[修改提醒](https://www.feishu.cn)")),
+			SetText(card.MarkdownText("[修改提醒](https://www.larksuite.com)")),
 	).
 		SetHeader(card.Header("李健已设置提醒 🎉"))
 	fmt.Println(content.String())

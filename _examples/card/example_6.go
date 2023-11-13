@@ -29,13 +29,13 @@ func Example6() {
 				card.FieldMarkdown("**地点**\\n江苏省、浙江省、上海市").SetIsShort(true),
 			),
 		card.Div().
-			SetText(card.MarkdownText("亲爱的同事们，\\n气象局发布台风橙色预警，7月26日江浙沪地区预计平均风力可达10级以上。\\n建议江浙沪地区同学明日居家办公。如有值班等特殊情况，请各部门视情况安排。\\n请同学们关好门窗，妥善安置室外用品，停止一切户外活动，注意保护自身安全。\\n如有疑问，请联系[值班号](https://open.feishu.cn/)。")),
+			SetText(card.MarkdownText("亲爱的同事们，\\n气象局发布台风橙色预警，7月26日江浙沪地区预计平均风力可达10级以上。\\n建议江浙沪地区同学明日居家办公。如有值班等特殊情况，请各部门视情况安排。\\n请同学们关好门窗，妥善安置室外用品，停止一切户外活动，注意保护自身安全。\\n如有疑问，请联系[值班号](https://open.larksuite.com/)。")),
 		card.Action(
 			card.Button("我已知悉", map[string]interface{}{"key": "value"}).SetPrimary(),
 		),
 		card.HR(),
 		card.Note(
-			card.MarkdownText("[来自应急通知](https://www.open.feishu.cn/)"),
+			card.MarkdownText("[来自应急通知](https://www.open.larksuite.com/)"),
 		),
 	).
 		SetHeader(card.Header("【应急通知】7月26日江浙沪地区居家办公通知").SetRed())
